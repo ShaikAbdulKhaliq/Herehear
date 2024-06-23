@@ -1,0 +1,329 @@
+.fill_main_containter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+}
+
+.toast_container {
+  display: none !important;
+}
+
+.topBar {
+  width: 100%;
+  height: 7.09%;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.cross_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topBar_left {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.arrow_block {
+  height: 60%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 0.5px solid rgba(121, 121, 121, 1);
+}
+
+.arrow_block img {
+  width: 50%;
+  aspect-ratio: 1;
+}
+
+.payment_txt {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.topBar_right {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.topBar_right:focus {
+  outline: none !important;
+}
+
+.time_left {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.middle_container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: 24px;
+}
+
+.order_details_block {
+  width: 100%;
+  height: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+}
+
+.order_details_text {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.edit_text {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.main_form {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.middle_container::-webkit-scrollbar {
+  display: none;
+}
+
+.form_block_1 {
+  width: 100%;
+  height: 7.85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket_block {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+}
+
+.adult_ticket_text {
+  width: fit-content;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.total_price {
+  width: fit-content;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.seat_no {
+  width: fit-content;
+  height: 50%;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.form_block_2 {
+  width: 100%;
+  height: 9.94%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fees_text {
+  width: fit-content;
+  height: 50%;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.form_block_3 {
+  width: 100%;
+  height: 20.83%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form_block_3 input {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.form_block_3 input:focus {
+  outline: none !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.form_block_3 input:-ms-input-placeholder {
+  color: rgba(214, 214, 214, 1);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.contact_info_text {
+  width: fit-content;
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.payment_methods {
+  width: 100%;
+  min-height: 68.03%;
+  gap: 16px;
+}
+
+.card_block {
+  width: 100%;
+  height: 32.28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title_div {
+  width: fit-content;
+  height: fit-content;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.add_card_block {
+  width: 100%;
+  height: 67.41%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.add_card_block p {
+  width: fit-content;
+  height: fit-content;
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+}
+
+.add_card_block .plus_block {
+  width: fit-content;
+  height: 50.41%;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid rgba(163, 169, 190, 1);
+  border-radius: 8px;
+  color: rgba(126, 129, 149, 1);
+  padding: 4px 16px;
+  gap: 8px;
+}
+
+.payment {
+  width: 100%;
+  height: 62.11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+}
+
+.pay_with_text {
+  width: fit-content;
+  height: 12.43%;
+  display: flex;
+  align-items: center;
+}
+
+.radio_label {
+  width: fit-content;
+  height: 13.56%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.radio_input {
+  height: 60%;
+  aspect-ratio: 1;
+  position: relative !important;
+  opacity: 1 !important;
+  pointer-events: all !important;
+  margin-right: 16px !important;
+}
+
+.radio_input:focus-visible {
+  outline: none !important;
+}
+
+.radio_img {
+  height: 60%;
+  aspect-ratio: 1;
+}
+
+.btn_container {
+  width: 100%;
+  height: 5.82%;
+}
+
+.next_button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(214, 214, 214, 1);
+  color: #0e3270;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.next_button:focus {
+  background-color: rgba(214, 214, 214, 1) !important;
+}

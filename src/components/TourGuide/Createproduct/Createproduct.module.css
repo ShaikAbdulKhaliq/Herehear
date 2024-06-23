@@ -1,0 +1,172 @@
+.CreateProductParent {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+  }
+  
+  .guideFormTitle {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .guideFullName {
+    height: 60px !important;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 8px !important;
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.6);
+  }
+  
+  .guideFullName::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .activityOptions {
+    display: none;
+  }
+  
+  .activityOptions.visible {
+    display: block;
+  }
+  
+  .activity {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    background-color: transparent;
+    color: rgb(255, 255, 255, 0.5);
+    border: none;
+  }
+  
+  .durationOptions {
+    display: none;
+  }
+  
+  .durationOptions.visible {
+    display: block;
+  }
+  
+  .duration {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    background-color: transparent;
+    color: rgb(255, 255, 255, 0.5);
+    border: none;
+  }
+  
+  .tagsDiv {
+    margin-top: 15px;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tagsTitle {
+    font-size: 12px;
+    height: 20px;
+  }
+  
+  .textAreaForTags {
+    min-height: 30px;
+    background-color: transparent;
+    border: none;
+    resize: none;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+  }
+  
+  .showTags {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 15px;
+  }
+  
+  .tag {
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    color: navy;
+    height: 15px;
+    width: fit-content;
+    padding: 0 1px 0 3px;
+    font-size: 10px;
+    border-radius: 4px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .removeTagBtn {
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    height: 100%;
+    margin-bottom: 2px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: navy;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+  }
+  
+  .addTagNote {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 300;
+    color: rgb(255, 255, 255, 0.6);
+  }
+  
+  .descriptionTextArea {
+    height: fit-content;
+    resize: none;
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+    font-family: sans-serif;
+    padding: 10px 0px;
+    color: white;
+  }
+  .titleSubmitDiv {
+    min-height: 50px;
+    width: 100%;
+    background-color: white;
+    color: rgba(14, 50, 112, 1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }

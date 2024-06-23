@@ -1,0 +1,114 @@
+.form_container {
+  width: 100%;
+  height: 100%;
+  padding: 24px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: url("/svgs/formbg.svg");
+  background-repeat: no-repeat;
+  background-size: 98.5% 50%;
+  background-position: bottom;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 1);
+}
+
+.heading_txt {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_txt p {
+  width: 67.44%;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.heading_txt span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content_div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.input_label {
+  width: 100%;
+  height: 54px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  background: none;
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+  outline: none;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+
+.input_label input:focus {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+}
+
+.button {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  color: rgba(14, 50, 112, 1);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.button:focus {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+.nexus_logo {
+  width: 40.8px;
+  height: 12px;
+  display: flex;
+  position: absolute;
+  bottom: 19px;
+  align-self: center;
+}
+
+.nexus_logo img {
+  width: 100%;
+  height: 100%;
+  opacity: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+  .form_container {
+    background-size: cover !important;
+  }
+}

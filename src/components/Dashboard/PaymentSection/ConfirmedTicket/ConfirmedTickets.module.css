@@ -1,0 +1,168 @@
+.my_confirmed_tickets_parent {
+  width: 100%;
+  height: 100%;
+  padding: var(--clamp-16);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+.my_confirmed_tickets_parent_header {
+  width: 100%;
+  height: var(--clamp-32);
+  display: flex;
+  gap: var(--clamp-16);
+}
+
+.choose_seats_events_logo {
+  width: var(--clamp-32);
+  height: var(--clamp-32);
+}
+
+.my_confirmed_tickets_content {
+  color: #fff;
+  font-size: var(--clamp-16);
+  font-weight: 700;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search_box_container {
+  width: 100%;
+  height: var(--clamp-32);
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: var(--clamp-16);
+  gap: var(--clamp-16);
+}
+
+.search_bar {
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--clamp-1) solid white;
+}
+.input::placeholder {
+  color: white;
+}
+
+.search_bar input:focus {
+  outline: none;
+  border: none !important;
+  background: transparent;
+}
+
+.search_bar input {
+  width: 100% !important;
+  height: 100% !important;
+  font-size: var(--clamp-14) !important;
+  background: transparent;
+  border: none !important;
+  outline: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.input_field_logo {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.choose_seats_events_arrow {
+  width: var(--clamp-32);
+  height: var(--clamp-32);
+  padding: var(--clamp-8);
+  outline: var(--clamp-1) dotted white;
+  border-radius: 50%;
+}
+
+.select_ticket_container {
+  width: 100%;
+  margin-top: var(--clamp-24);
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+  gap: var(--clamp-16);
+}
+
+.select_ticket_container::-webkit-scrollbar {
+  display: none;
+}
+
+.AccordionItem {
+  margin-bottom: var(--clamp-16);
+}
+
+.AccordionButton {
+  background-color: transparent;
+  color: #fff;
+  font-size: var(--clamp-16);
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.AccordionButton:focus {
+  background: none !important;
+}
+
+.AccordionBox {
+  height: 38px;
+  /* border-bottom: 1px solid;
+  border-image: linear-gradient(
+    90.07deg,
+    #ffffff 0%,
+    rgba(255, 255, 255, 0) 94.47%
+  );
+  border-image-slice: 1; */
+  display: flex;
+  align-items: center;
+}
+
+.FooterContainer {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu_container {
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.logo_name {
+  height: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.logo_name img {
+  width: 50%;
+  aspect-ratio: 1;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.AccordionButtonExpanded {
+  border: none !important; /* no border when expanded */
+}
+
+.margin_on_expanded {
+  padding: 0 !important;
+}

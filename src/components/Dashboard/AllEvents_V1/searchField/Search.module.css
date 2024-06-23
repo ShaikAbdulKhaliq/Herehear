@@ -1,0 +1,37 @@
+.search_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_img {
+  width: 9%;
+  height: 90%;
+}
+.img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.input_search {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.input::placeholder {
+    color: white; 
+  }
+
+.input_search input:focus{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.input_search input{
+    background: transparent;
+    border: none;
+    outline: none;
+}

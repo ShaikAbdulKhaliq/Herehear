@@ -1,0 +1,123 @@
+.payment_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 0 16px;
+    gap: 16px;
+}
+
+.pay_block_1 {
+    width: 30%;
+    height: 3.52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.arrow_block {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid #797979;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 60%;
+    aspect-ratio: 1;
+}
+
+.pay_block_2 {
+    width: 100%;
+    height: 2.61%;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.payment_input {
+    width: 100%;
+    aspect-ratio: 1;
+}
+
+.card_details_block {
+    width: 100%;
+    height: 29.86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.CardNumber input,
+.month input,
+.cvv input {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+    color: rgba(214, 214, 214, 1);
+    padding: 0 !important;
+    font-size: 14px !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.CardNumber input:focus,
+.month input:focus,
+.cvv input:focus {
+    outline: none !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4) !important;
+}
+
+.CardNumber {
+    width: 100%;
+    height: 20.24%;
+}
+
+.card_details_block::placeholder {
+    font-weight: 400;
+    font-size: clamp(0.25625rem, 0rem + 4.1vw, 25.625rem);
+    color: #D6D6D6;
+}
+
+.month_cvv {
+    width: 100%;
+    height: 20.24%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.month {
+    width: 65%;
+    height: 100%;
+}
+
+.cvv {
+    width: 30%;
+    height: 100%;
+}
+
+.next_button {
+    width: 100%;
+    height: 5.45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(214, 214, 214, 1);
+    color: #0E3270;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.next_button:focus {
+    background-color: rgba(214, 214, 214, 1) !important;
+}

@@ -1,0 +1,162 @@
+.ItenaryMain {
+    height: 100%;
+    min-width: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CC3333;
+    touch-action: none;
+    border-radius: 10px;
+}
+
+.CardBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Card {
+    height: 100%;
+    padding: 15px;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+    background-color: #b48787;
+    transform: translateY(0px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    /* touch-action: none; */
+}
+
+.Popup {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 6px 16px 0 16px;
+    background-color: #27AE60;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+}
+
+.select_dock {
+    font-size: 16px;
+}
+
+.not_interested_block {
+    width: 80%;
+    height: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 16px 6px 16px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.not_interested {
+    font-size: 16px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.tick_box {
+    width: 20px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF4D;
+    border-radius: 50%;
+}
+
+.tick_box img {
+    width: 50%;
+    height: 50%;
+}
+
+.MovedUp {
+    transform: translateY(-30px);
+    transition: transform 0.5s ease-in-out
+}
+
+.MovedDown {
+    transform: translateY(30px);
+    transition: transform 0.5s ease-in-out
+}
+
+.Popup2 {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    /* background-color: grey; */
+    height: 80px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.eventNameDiv {
+    height: 30%;
+    width: 70%;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.eventDescriptionDiv {
+    height: 40%;
+    width: 80%;
+    font-size: 10px;
+    font-weight: 200;
+    display: flex;
+    /* align-items: center; */
+}
+
+.eventTimeDiv {
+    height: 30%;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.hourStatus {
+    position: absolute;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.bgGradientDiv {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #0000002d 100%),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%), #0000000f;
+}
+
+.bgImageItenary {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}

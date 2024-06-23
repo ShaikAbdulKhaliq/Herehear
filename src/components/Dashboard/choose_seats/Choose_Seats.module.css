@@ -1,0 +1,214 @@
+.Seats_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 0 16px;
+}
+
+.navbar {
+  width: 100%;
+  height: 12.68%;
+}
+
+.main_container {
+  width: 100%;
+  flex-grow: 1;
+  margin-top: 16px;
+}
+
+.stage_container {
+  width: 100%;
+  height: 36.77%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.Auditorium_Strcuture {
+  height: 83.76%;
+  width: 100%;
+}
+
+.seat_status {
+  height: 8.12%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.booked_block,
+.available_block,
+.selected_block {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dot1 {
+  height: 75%;
+  aspect-ratio: 1;
+  display: flex;
+  background-color: rgba(83, 83, 83, 1);
+  border-radius: 50%;
+}
+
+.dot2 {
+  height: 75%;
+  aspect-ratio: 1;
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+}
+
+.dot3 {
+  height: 75%;
+  aspect-ratio: 1;
+  display: flex;
+  background-color: rgba(255, 112, 9, 1);
+  border-radius: 50%;
+}
+
+.txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--clamp-16);
+  color: rgba(255, 255, 255, 1);
+}
+
+.bottom_container {
+  width: 100%;
+  height: 69.43%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.bottom_container button:focus {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.ChooseSeatsMain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.ChooseSeatHeader {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  gap: 10px;
+}
+
+.seatCategoryDiv {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  position: relative;
+}
+
+.seatCategory {
+  height: 85%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  transition: top 1.5s ease-in-out;
+}
+
+.switchMapDivParent {
+  height: 22%;
+  min-width: 55%;
+  width: fit-content;
+  border-top: 2px solid rgba(29, 100, 213, 0.6);
+  background-color: #032764;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+}
+
+.switchMapDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 4.5px 13px 5.5px;
+  color: #ffffff;
+}
+
+.ChooseSeatBody {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.seatOptionsDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  transition: top 1.5s ease-in-out, width 1.5s ease-in-out,
+    height 1.5s ease-in-out;
+  color: #ffffff;
+  gap:4px;
+}
+
+.dot1,
+.dot2,
+.dot3 {
+  height: 35%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.seatOption1,
+.seatOption3,
+.seatOption2 {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.dot1 {
+  background-color: rgba(83, 83, 83, 1);
+}
+
+.dot3 {
+  background-color: rgba(255, 112, 9, 1);
+}
+
+.errorIcon {
+  height: 100px;
+  aspect-ratio: 1;
+  position: absolute;
+  transition: opacity 0.5s ease-in;
+  top: 60%;
+}
+
+.errorTag {
+  position: absolute;
+  top: 73%;
+  font-size: 14px;
+  transition: opacity 0.5s ease-in;
+}

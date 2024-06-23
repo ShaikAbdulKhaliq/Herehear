@@ -1,0 +1,280 @@
+.productPricingDiv {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  overflow-y: scroll;
+}
+
+.productPricingDiv::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.productPricingTitle {
+  font-size: 16px;
+  height: 20px;
+  font-weight: 500;
+}
+
+.productPricingData {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productPricingTypeOfAct {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingFreeActivity {
+  background-color: transparent;
+}
+
+.productPricingActivityOptions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productPricingActivity {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingInput {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingAdultDetail {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.productPricingRange {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.productPricingRangeMin {
+  width: 47%;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingRangeMinInput {
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  color: white !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.productPricingUpDownIcons {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.productPricingUpIcon {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.productPricingDownIcon {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.productPricingRangeMax {
+  width: 47%;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingRangeMaxInput {
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  display: flex;
+  color: white !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.productPricingLimitOfPassengers {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingAllowBooking {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingAllowChildren {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.productPricingVisible {
+  display: flex;
+}
+
+.typeOfAct {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 15px 0px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+.typeOfAct::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.activityOptionsProduct {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.activityOptionsProduct.visible {
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in-out;
+}
+.activity {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.rangeDiv {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.rangeMinDiv,
+.rangeMaxDiv {
+  width: 47%;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.rangeMinInput,
+.rangeMaxInput {
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: none !important;
+  display: flex;
+  color: white !important;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.upDownIcons {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adultDetailDiv {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(255, 255, 255, 0.6);
+}
+.upIcon {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downIcon {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.titleSubmitDiv {
+  min-height: 50px;
+  width: 100%;
+  background-color: white;
+  color: rgba(14, 50, 112, 1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

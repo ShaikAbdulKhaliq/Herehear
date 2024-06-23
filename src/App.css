@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
+  background-color: rgba(25, 22, 28, 1);
+  font-family: 'Satoshi', sans-serif;
+  background-image: url("/svgs/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'Coanda';
+  src: url('fonts/Coanda-Regular.ttf') format('truetype');
+}

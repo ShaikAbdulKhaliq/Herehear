@@ -1,0 +1,160 @@
+.main_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 16px 16px;
+}
+
+.login_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.img_container {
+    width: 100px;
+    aspect-ratio: 1;
+}
+
+.img_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.toggle_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input_container {
+    width: 100%;
+    height: 38px;
+}
+
+.input_container {
+    width: 100%;
+    height: 38px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_container input:focus {
+    border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+}
+
+.input_container .phone_countrycode {
+    width: 12% !important;
+    height: 100% !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+    outline: none !important;
+    font-size: 16px !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.input_container .phone_number {
+    width: 80% !important;
+    height: 100% !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 1) !important;
+    outline: none !important;
+    font-size: 16px !important;
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.para_container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para_container p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #CACACA;
+}
+
+.para_container span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #EBEBEB;
+    text-decoration: underline 1px solid #EBEBEB;
+    text-underline-offset: 10%;
+}
+
+.btn_container {
+    width: 100%;
+    height: 46px;
+    cursor: pointer;
+}
+
+.btn_container button {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    color: #0e3270;
+    white-space: nowrap;
+    justify-content: center;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.input_container .react-tel-input {
+    font-family: 'Satoshi', sans-serif !important;
+    font-size: 16px !important;
+    height: 100% !important;
+}
+
+.react-tel-input .form-control:focus {
+    box-shadow: 0 !important;
+}
+
+.react-tel-input .selected-flag {
+    width: 70px !important;
+    height: 100% !important;
+    outline: none;
+    position: relative;
+    display: flex !important;
+    padding: 0 !important;
+    border-radius: 3px 0 0 3px;
+    justify-content: center !important;
+}
+
+.nexus_logo {
+    width: 40.8px;
+    height: 12px;
+    display: flex;
+    position: absolute;
+    bottom: 19px;
+    align-self: center;
+}
+
+.nexus_logo img {
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+
+@media only screen and (min-width: 768px) {
+    .main_container {
+        overflow: hidden;
+        background-size: cover !important;
+    }
+}

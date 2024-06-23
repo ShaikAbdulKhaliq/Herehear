@@ -1,0 +1,130 @@
+.Interest_Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  padding: var(--clamp-16);
+  gap: clamp(0.11875rem, 0rem + 1.9vw, 11.875rem);
+  overflow: hidden;
+  color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  flex-direction: column;
+}
+
+.navbar_txt {
+  width: 100%;
+  height: 6.43%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_txt {
+  width: 67.44%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left_top_txt {
+  font-size: clamp(0.28875rem, 0rem + 4.62vw, 28.875rem);
+  font-weight: 500;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.left_bottom_txt {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: clamp(0.224375rem, 0rem + 3.59vw, 22.4375rem);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar_txt span {
+  width: fit-content;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: clamp(0.28875rem, 0rem + 4.62vw, 28.875rem);
+  font-weight: 400;
+}
+
+.image_scroller {
+  width: 100%;
+  height: 83.27%;
+  overflow: scroll;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 4%;
+  row-gap: 2%;
+}
+
+.image_scroller::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.image_wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image_wrapper img {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--clamp-8);
+}
+
+.image_wrapper span {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  z-index: 1;
+  position: absolute;
+  bottom: var(--clamp-8);
+  left: var(--clamp-8);
+}
+
+.button_wrapper {
+  width: 100%;
+  height: 6.29%;
+}
+
+.button_wrapper button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  animation-timing-function: ease-out;
+  animation-duration: 600ms;
+  color: rgba(14, 50, 112, 1);
+  font-size: clamp(0.25625rem, 0rem + 4.1vw, 25.625rem);
+  font-weight: 700;
+}
+
+.button_wrapper button:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.active_border {
+  border: var(--clamp-2) solid rgba(255, 255, 255, 1);
+  border-radius: var(--clamp-8);
+}

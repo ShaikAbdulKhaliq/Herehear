@@ -1,0 +1,131 @@
+.SeatMain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(244, 243, 255, 1);
+  z-index: 1000;
+}
+
+.StageCircle {
+  height: 40%;
+  aspect-ratio: 1;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  box-sizing: content-box;
+  border: 10px solid rgb(20, 70, 142);
+  width: 23%;
+  color: rgba(255, 255, 255, 1); 
+  display:flex;
+  justify-content: center;
+}
+
+
+.StageCircle span{
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgba(0, 0, 0, 1);
+  top: 60%;
+  font-weight:500;
+  font-size: 14px;
+}
+
+.selected {
+  background-color: #FF7009 !important; /* Ensure the style is applied */
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+.backStageCircle {
+  height: 97%;
+  aspect-ratio: 1;
+  max-height: 120%;
+  background-color:#4A81DC;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  border: 8px solid rgb(20, 70, 142);
+  width: 55%;
+  color: rgba(255, 255, 255, 1); 
+  display:flex;
+  justify-content: center;
+  
+}
+.backStageCircle span{
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgba(255, 255, 255, 1); 
+  top: 80%;
+  font-weight:500;
+  font-size: 14px;
+}
+.vipCircle {
+  aspect-ratio: 1;
+  max-height: 200%;
+  background-color: rgba(193, 216, 255, 1);
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid rgb(20, 70, 142);
+  width: 95%;
+  height: 180%;
+  color: rgba(255, 255, 255, 1); 
+  display:flex;
+}
+.vip1{
+  position: absolute;
+  color: rgba(0, 0, 0, 1);
+  top: 75%;
+  left:14%;
+  font-weight:500;
+  font-size: 14px;
+}
+.vip2{
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: rgba(0, 0, 0, 1);
+  top: 75%;
+  right:14%;
+  font-weight:500;
+  font-size: 14px;
+ 
+}
+.general1{
+  position: absolute;
+  top: 75%;
+  left: 5.7%;
+  font-weight:500;
+  font-size: 14px;
+  color: rgba(97, 97, 97, 1);
+}
+.general2{
+  position: absolute;
+  top: 75%;
+  right: 5.7%;
+  font-weight:500;
+  font-size: 14px;
+  color: rgba(97, 97, 97, 1);
+}
+.trapizoid {
+  height: 90%;
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 8;
+  border-bottom: 100px solid rgb(20, 70, 142);
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  color: white; 
+}

@@ -1,0 +1,136 @@
+.main_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav_block_1{
+    width:100%;
+    height:26%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.img_text{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.img_text .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    aspect-ratio: 1;
+}
+
+.rock_popup{
+    font-weight:400;
+    color:rgba(0, 0, 0, 1);
+    font-size: 14px;
+}
+.text{
+    width: fit-content;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: linear-gradient(89.71deg, #456FB5 0.25%, #032764 99.81%);
+}
+
+.text span:first-child {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text span:last-child {
+    font-size: 12px;
+}
+
+.nav_block_2{
+    width:100%;
+    flex-grow: 1;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.nav_block_2_1{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+}
+.nav_block_2_2{
+    width:60%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.text1{
+    color:rgba(0, 0, 0, 1);
+    font-weight:500;
+    font-size:20px;
+}
+.text2{
+    color:rgba(0, 0, 0, 1);
+    font-weight:400;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text2:hover::after {
+    content: attr(data-fulltext); /* Shows full text on hover */
+    position: absolute;
+    background: gray;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    margin-top: -30px; /* Adjust to position tooltip */
+    z-index: 1000; /* Ensures tooltip is on top */
+    left: 32px;
+}
+.text3{
+    color:rgba(106, 106, 106, 1);
+    font-weight:400;
+    font-size: 16px;
+}
+.nav_block_3{
+    width:100%;
+    height: fit-content;
+    display:flex;
+    justify-content: space-between;
+}
+.pause_button_block{
+    width: fit-content;
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight:400;
+    color:rgba(154, 154, 154, 1);
+    font-size: 14px;
+    gap: 8px;
+}
+
+.len_text{
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight:400;
+    color:rgba(154, 154, 154, 1);
+    font-size: 16px;
+}

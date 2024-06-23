@@ -1,0 +1,51 @@
+.splash_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.EntryPage_text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.EntryPage {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.hearhere_logo {
+  width: 240.044px;
+  height: 275px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image_logo {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.text1 {
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+.text2 {
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+}
+.text3 {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}

@@ -1,0 +1,322 @@
+.ticket_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  overflow: scroll;
+}
+
+.header {
+  width: 100%;
+  height: 3.79%;
+  display: flex;
+  gap: 16px;
+}
+
+.arrow_block {
+  height: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgba(121, 121, 121, 1);
+  border-radius: 50%;
+}
+
+.header span {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.14px;
+}
+
+.arrow_block img {
+  width: 60%;
+  aspect-ratio: 1;
+  transform: rotate(180deg);
+}
+
+.ticket_block {
+  width: 100%;
+  height: 514px;
+  position: relative;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.ticket_heading {
+  width: 100%;
+  height: 8.44%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking_timing {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.qr_block {
+  height: 100%;
+  aspect-ratio: 1;
+}
+
+.qr_block img {
+  width: 100%;
+  height: 100%;
+}
+
+.date_time_block {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.ticket_date {
+  width: 100%;
+  height: 50%;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  text-align: right;
+}
+
+.ticket_time {
+  width: 100%;
+  height: 50%;
+  color: rgba(150, 150, 150, 1);
+  font-size: 16px;
+  text-align: right;
+}
+
+.dotted_line {
+  width: 100%;
+  height: 0.22%;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-style: dashed;
+  display: flex;
+  align-items: center;
+}
+
+.booking_details {
+  width: 100%;
+  height: 39.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.booking_details_sub_block {
+  width: 100%;
+  height: 27.12%;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking_details_topsub_block {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(176, 176, 176, 1);
+  font-size: 16px;
+}
+
+.booking_details_bottomsub_block {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.booking_details_bottomsub_block img {
+  height: 100%;
+  width: auto;
+}
+
+.button_container {
+  width: 100%;
+  height: 5.45%;
+}
+
+.button_container button {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(14, 50, 112, 1);
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.homepage_txt {
+  width: 100%;
+  height: 2.25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage_txt span {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.heading_text {
+  width: 80%;
+  height: 12%;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "coanda", sans-serif;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.heading_text1 {
+  width: 100%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.heading_text2 {
+  width: 80%;
+  height: 12%;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: coanda;
+  color: black;
+}
+
+.heading_text3 {
+  width: 80%;
+  height: 12%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.heading_text4 {
+  width: 80%;
+  height: 10%;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "coanda";
+  color: black;
+}
+
+.block1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.key {
+  width: fit-content;
+  height: 100%;
+  font-family: "coanda";
+  font-weight: 400;
+  font-size: 12px;
+  color: #5f5f5f;
+}
+
+.value {
+  width: fit-content;
+  height: 100%;
+  font-family: "coanda";
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time_text {
+  width: fit-content;
+  height: 100%;
+  font-family: 'coanda';
+  font-weight: 400;
+  font-size: 16px;
+  color: #636363;
+  white-space: nowrap;
+}
+
+.date_text {
+  width: fit-content;
+  height: 100%;
+  font-family: 'coanda';
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+.seats_text {
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.value2 {
+  height: 85%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.seats_icon {
+  height: 100%;
+  aspect-ratio: 1;
+  width: 45%;
+}
+
+.empty {
+  width: 100%;
+  height: 2px;
+}
+
+.empty img {
+  width: 100%;
+  height: 100%;
+}

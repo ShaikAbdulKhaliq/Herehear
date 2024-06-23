@@ -1,0 +1,97 @@
+.Seat_Counting_Popup {
+    width: 100%;
+    height: 46.37%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgba(64, 189, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    border-radius: 16px 16px 0 0;
+    border-top: 2px solid skyblue;
+    padding: 16px;
+    z-index: 1111;
+}
+
+.popup_top_block {
+    width: 100%;
+    height: 70.54%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    width: 100%;
+    height: 14.37%;
+}
+
+.title span {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.img_block {
+    height: 73.17%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_block img {
+    height: 100%;
+    aspect-ratio: 1;
+}
+
+.nos {
+    width: 100%;
+    height: 18.75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.nos span{
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.24px;
+}
+
+.no_onclick {
+    height: 100%;
+    aspect-ratio: 1;
+    color: rgba(14, 49, 108, 1) !important;
+    background-color: aliceblue;
+    font-weight: 700 !important;
+}
+
+.btn_block {
+    width: 100%;
+    height: 17.69%;
+}
+
+.btn_block button {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+
+    color: rgba(14, 50, 112, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.14px;
+}

@@ -1,0 +1,93 @@
+.cardTest {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardTest1 {
+  height: 60px;
+  width: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12%;
+}
+
+.animatingLine1 {
+  height: 20%;
+  width: 8%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: animating1 1s infinite;
+}
+
+.animatingLine2 {
+  height: 20%;
+  width: 8%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: animating2 2s infinite;
+}
+
+.animatingLine3 {
+  height: 20%;
+  width: 8%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: animating3 3s infinite;
+}
+
+.animatingLine4 {
+  height: 20%;
+  width: 8%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: animating2 2s infinite;
+}
+
+.animatingLine5 {
+  height: 20%;
+  width: 8%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  animation: animating1 1s infinite;
+}
+
+@keyframes animating1 {
+  0% {
+    height: 15%;
+  }
+  50% {
+    height: 30%;
+  }
+  100% {
+    height: 15%;
+  }
+}
+
+@keyframes animating2 {
+  0% {
+    height: 30%;
+  }
+  50% {
+    height: 45%;
+  }
+  100% {
+    height: 30%;
+  }
+}
+
+@keyframes animating3 {
+  0% {
+    height: 40%;
+  }
+  50% {
+    height: 60%;
+  }
+  100% {
+    height: 40%;
+  }
+}
