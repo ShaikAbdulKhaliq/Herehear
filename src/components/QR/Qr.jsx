@@ -3,10 +3,12 @@ import styles from "./Qr.module.css";
 import QRCode from "react-qr-code";
 import { Logo } from "../../Images/Image";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from 'react-router-dom'; 
 
 const Qr = () => {
   const { t } = useTranslation();
   let { qr_text } = t("landing_page");
+  const navigate=useNavigate()
   return (
     <div className={styles.QR_Code_container}>
       <div className={styles.Image_Background_Container}>
