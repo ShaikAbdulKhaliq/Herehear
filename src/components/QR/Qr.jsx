@@ -57,7 +57,7 @@ const Qr = () => {
           <QRCode
             size={180}
             style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-            value={"https://herehear.vercel.app"}
+            value={"https://herehear.vercel.app/authentication/login"}
             viewBox={`0 0 180 180`}
             onClick={movetonextpage}
           />
